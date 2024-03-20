@@ -2,7 +2,7 @@ pkgdesc="ROS - image_pipeline fills the gap between getting raw images from a ca
 url='https://wiki.ros.org/image_pipeline'
 
 pkgname='ros-noetic-image-pipeline'
-pkgver='1.16.0'
+pkgver='1.17.0'
 arch=('i686' 'x86_64' 'aarch64' 'armv7h' 'armv6h')
 pkgrel=1
 license=('BSD')
@@ -33,7 +33,7 @@ depends=(
 
 _dir="image_pipeline-${pkgver}/image_pipeline"
 source=("${pkgname}-${pkgver}.tar.gz"::"https://github.com/ros-perception/image_pipeline/archive/${pkgver}.tar.gz")
-sha256sums=('310004d402930a059bb2c4811301e6f8aabc517143d094662de7e047e6e2b429')
+sha256sums=('2439fbd1165b128da9d7663ebc1a7fee0f97b8f05427a3d2f7a82b782dcbc090')
 
 build() {
 	# Use ROS environment variables.
